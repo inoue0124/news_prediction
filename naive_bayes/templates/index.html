@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}ニュースカテゴリ判定{% endblock %}
+{% block body %}
+  <form method="post" action="../result/">
+    {% csrf_token %}
+    {{ form }}
+    <button type="submit">submit</button>
+  </form>
+{% endblock %}
