@@ -1,7 +1,7 @@
 beautifulsoup4==4.5.3
 Django==1.11.7
 gensim==3.1.0
-html5lib==0.9999999
+html5lib==0.999999999
 matplotlib==2.0.2
 mecab-python3==0.7
 numpy==1.12.1
